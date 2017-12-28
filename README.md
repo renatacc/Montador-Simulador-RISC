@@ -9,4 +9,4 @@ Implementação de um montador e um simulador funcional para o processador RISC 
 **Instruções Para Compilar**
 
 - gcc -Wall -o *.c exe
-- ./exe 
+- ./exe ”arquivoEntrada” ”arquivoSaida”
