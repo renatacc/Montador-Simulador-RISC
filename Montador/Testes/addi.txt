@@ -1,0 +1,15 @@
+li r0,4
+li r1,2
+li r5,100
+li r6,101
+li r7,102
+li r8,103
+addi r2,r0,2
+store r5,r2
+addi r0,r2,2
+store r6,r0
+addi r3,r2,4
+store r7,r3
+addi r4,r3,4
+store r8,r4
+halt

@@ -1,0 +1,5 @@
+lcl r1,2
+lcl r2,3
+pot r0,r1,r1
+pot r0,r1,r2
+halt

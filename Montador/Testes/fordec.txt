@@ -1,0 +1,9 @@
+lcl r1,10
+lcl r3,1
+lcl r0,0
+label1:
+beq r1,r0,label2
+dec r1,r1
+j label1
+label2:
+halt

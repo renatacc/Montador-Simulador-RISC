@@ -1,0 +1,14 @@
+lcl r1,1
+lcl r2,5
+lcl r4,1
+lcl r5, 100
+zeros r0
+passa r3,r2
+label2:
+beq r3,r0,label1
+mult r1,r1,r3
+sub r3,r3,r4
+j label2
+label1:
+store r5,r1
+halt

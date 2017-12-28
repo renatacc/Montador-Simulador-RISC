@@ -1,0 +1,9 @@
+lcl r1,0
+lcl r3,1
+lcl r0,10
+label1:
+bgt r1,r0,label2
+inc r1,r1
+j label1
+label2:
+halt

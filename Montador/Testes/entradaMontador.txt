@@ -1,0 +1,15 @@
+lcl r0,4
+lcl r1,2
+lcl r5,100
+lcl r6,101
+lcl r7,102
+lcl r8,103
+add r2,r0,r1
+store r5,r2
+mult r0,r2,r1
+store r6,r0
+div r3,r2,r0
+store r7,r3
+sub r4,r3,r0
+store r8,r4
+halt
